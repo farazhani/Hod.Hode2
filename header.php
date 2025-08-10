@@ -9,9 +9,9 @@
 </head>
 <body 
 <?php body_class("bg-gray-100"); ?>>
-<header class="bg-red-50">
+<header class="bg-white">
     <div class="max-w-screen-lg mx-auto">
-        mmm
+        
         <?php if(function_exists("the_custom_logo"))
         {
             the_custom_logo();
