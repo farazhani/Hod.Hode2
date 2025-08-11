@@ -2,7 +2,7 @@
 </body>
    <?php wp_footer(); ?>
 </hr>
-   <footer class="bg-white" >
+   <footer class="bg-white left-0 right-0 top-0 z-40 w-full shadow bg-gray-500"  >
       <div class="flex ">
        <div class="max-w-screen-lg mx-auto flex space-x-60">
        <div class="w-10 h-auto">
