@@ -17,10 +17,6 @@
     </main>
   </div>
 
-
-
-
-
     <section class="container mx-auto mt-16 flex gap-3 flex-warp max-w-screen-lg mx-auto">
         <button
             class="px-4 py-2 rounded-full bg-white border bordet-gray-500 text-gray-700 hover:bg-blue-600 hover:text-white transition">همه
