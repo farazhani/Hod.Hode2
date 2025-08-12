@@ -29,7 +29,7 @@
                         <a href="#">خانه</a>
                     </li>
                     <li class="cursor-point transform transition-transform duration-200 hover:scale-125">
-                        <a href="#" class="m">محصولات</a>
+                        <a href="#" class="m">محصولات</a> 
                     </li>
                         <div class="justify-start md:flex md:pr-160 md:text-left flex space-x-15">
                     <li class="cursor-point transform transition-transform duration-200 hover:scale-125">

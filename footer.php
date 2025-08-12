@@ -6,7 +6,7 @@
       <div class="flex ">
        <div class="max-w-screen-lg mx-auto flex space-x-60">
        <div class="w-10 h-auto">
-        <?php if(function_exists("the_custom_logo"))
+        <?php if(function_exists("the_custom_logo")) 
         {
             the_custom_logo();
         }

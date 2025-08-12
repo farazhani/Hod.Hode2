@@ -11,7 +11,7 @@
           the_content();
         }
       } else {
-        echo '<p>No content found.</p>';
+        echo '<p>No content found.</p>'; 
       }
       ?>
     </main>
