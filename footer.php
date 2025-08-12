@@ -17,7 +17,7 @@
     <div class="flex" >
          <img class="w-10 h-auto " src="<?php echo get_template_directory_uri();?>/t.jpg">
                   <img class="w-10 h-auto" src="<?php echo get_template_directory_uri();?>/f.jpg">
-                           <img class="w-10 h-auto" src="<?php echo get_template_directory_uri();?>/in.jpg">
+                           <img class="w-10 h-auto" src="<?php echo get_template_directory_uri();?>/in.jpg"> 
 
     </div>
     </div>
