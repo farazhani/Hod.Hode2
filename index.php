@@ -1,4 +1,3 @@
-
 <?php get_header()?>
   <div id="page" class="site">
     <main id="main" class="site-main">

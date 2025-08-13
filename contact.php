@@ -1,4 +1,3 @@
-
     <main class="mx-auto max-w-lg py-10 px-4">
         <h2 class="text-center text-lg font-bold mb-2">ارتباط با ما</h2>
         <p class="text-center text-gray-500 text-sm mb-6">
