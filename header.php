@@ -4,11 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <?php wp_head()?>
 </head>
 
 <body class="bg-gray-100" dir="rtl">
+    <?php
+    wp_nav_menu([
+        "theme_location"=>'Header',
+        "menu_class"=>"flex",
+        "container"=>false
+    ]);
+    ?>
+
     <header class="left-0 right-0 top-0 z-40 w-full shadow bg-white ">
         <div class="px-4 max-w-screen-lg mx-auto">
             <?php if (function_exists("the_custom_logo")) {
@@ -24,21 +33,6 @@
                         <a href="#">خانه</a>
                     </li>
                     <li class="cursor-point transform transition-transform duration-200 hover:scale-125">
-                        <a href="#" class="m">محصولات</a> 
-                    </li>
-                        <div class="justify-start md:flex md:pr-160 md:text-left flex space-x-15">
-                    <li class="cursor-point transform transition-transform duration-200 hover:scale-125">
-                        <a href="contact.php" class="m" >ارتباط با ما</a>   
-                    </li>
-                </ul>
-                <a href="#" class="cursor-point transform transition-transform duration-200 hover:scale-125 ">
-                  <img class="w-7 h-auto" src="<?php echo get_template_directory_uri();?>/shop.jpg">
-                </a>
-                        </div>
-            </div>
-        </div>
-    </div>
-    </header>
                         <a href="#" class="m">محصولات</a>
                     </li>
                 </ul>

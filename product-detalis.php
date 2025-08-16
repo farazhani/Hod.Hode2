@@ -1,4 +1,5 @@
 
+
     <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -22,10 +23,10 @@
     <div class="md:col-span-2 bg-white p-6 rounded-lg shadow">
       <img src="camera1.jpg" class="w-60 h-auto mx-55">
       
-            <div class="flex justify-between items-center mb-4">
+            <div class="flex justify-between items-center mb-5 gap-3">
 
             
-                  <h1 class="text-2xl font-bold text-gray-800 mb-2">دوربین دیجیتال Canon EOS 2500</h1>
+                  <h1 class="text-2xl font-bold text-gray-800 mb-3">دوربین دیجیتال Canon EOS 2500</h1>
                                       <div class=" bg-red-500 text-sm text-white px-2 py-1 rounded">
                     42%
                 </div>
@@ -52,6 +53,5 @@
         <li>قطع حسگر: APS-C / Crop Frame (نیم‌فریم)</li>
       </ul>
   </div>
-<?php get_footer()?>
 </body>
 </html>
